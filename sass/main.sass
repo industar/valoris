@@ -1,0 +1,99 @@
+@import "bourbon/bourbon"
+
+$fontbook: "GothamBook", "Helvetica Neue", sans-serif
+$fontlight: "GothamLight", "Helvetica Neue", sans-serif
+$darkgray: #323232
+$green: #a7d16b
+
+html.js .loader
+	background: none repeat scroll 0 0 #ffffff
+	bottom: 0
+	height: 100%
+	left: 0
+	position: fixed
+	right: 0
+	top: 0
+	width: 100%
+	z-index: 9999
+	.loader_inner
+		background-image: url("../img/preloader.gif")
+		background-size: cover
+		background-repeat: no-repeat
+		background-position: center center
+		background-color: #fff
+		height: 60px
+		width: 60px
+		margin-top: -30px
+		margin-left: -30px
+		left: 50%
+		top: 50%
+		position: absolute
+
+body
+	font-family: $fontbook
+	font-weight: normal
+	font-size: 15px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	-webkit-font-smoothing: antialiased
+	overflow-x: hidden
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: red
+body input:required:valid,
+body textarea:required:valid
+	color: green
+
+.hidden
+	display: none
+.top-line
+	background: $darkgray
+	font-family: $fontbook
+	padding: 40px 0 24px
+.main-nav
+	margin-top: 84px
+	li
+		display: inline-block
+		margin-right: 20px
+		a
+			font-family: $fontlight
+			color: #fff
+			font-size: 14px
+			line-height: 13px
+			text-transform: uppercase
+			word-spacing: 3px
+		&.active a
+			color: $green
+.bottom-line
+	background: url("../img/header-img.jpg") no-repeat center
+	background-size: cover
+.bottom-line_bcg
+	background: url("../img/bcg2.svg") no-repeat center
+	background-size: cover
+	height: 488px
+.line-description
+	li
+		font-family: $fontlight
+		text-transform: uppercase
+.line-description 
+	padding-top: 57px
+	li:nth-child(1)
+		font-size: 48px
+		line-height: 50px
+		letter-spacing: -2px
+	li:nth-child(2)
+		font-family: "GothamBold", "Helvetica Neue", sans-serif
+		font-size: 101px
+		line-height: 91px
+		letter-spacing: -4px
+	li:nth-child(3)
+		font-family: "GothamBold", "Helvetica Neue", sans-serif
+		font-size: 46px
+		line-height: 48px
+		letter-spacing: -2px
+	li:nth-child(4)
+		font-size: 24px
+		line-height: 31px
+

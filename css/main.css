@@ -1,0 +1,99 @@
+html.js .loader {
+  background: none repeat scroll 0 0 #ffffff;
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9999; }
+  html.js .loader .loader_inner {
+    background-image: url("../img/preloader.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #fff;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    left: 50%;
+    top: 50%;
+    position: absolute; }
+
+body {
+  font-family: "GothamBook", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden; }
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+.top-line {
+  background: #323232;
+  font-family: "GothamBook", "Helvetica Neue", sans-serif;
+  padding: 40px 0 24px; }
+
+.main-nav {
+  margin-top: 84px; }
+  .main-nav li {
+    display: inline-block;
+    margin-right: 20px; }
+    .main-nav li a {
+      font-family: "GothamLight", "Helvetica Neue", sans-serif;
+      color: #fff;
+      font-size: 14px;
+      line-height: 13px;
+      text-transform: uppercase;
+      word-spacing: 3px; }
+    .main-nav li.active a {
+      color: #a7d16b; }
+
+.bottom-line {
+  background: url("../img/header-img.jpg") no-repeat center;
+  background-size: cover; }
+
+.bottom-line_bcg {
+  background: url("../img/bcg2.svg") no-repeat center;
+  background-size: cover;
+  height: 488px; }
+
+.line-description li {
+  font-family: "GothamLight", "Helvetica Neue", sans-serif;
+  text-transform: uppercase; }
+
+.line-description {
+  padding-top: 57px; }
+  .line-description li:nth-child(1) {
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: -2px; }
+  .line-description li:nth-child(2) {
+    font-family: "GothamBold", "Helvetica Neue", sans-serif;
+    font-size: 101px;
+    line-height: 91px;
+    letter-spacing: -4px; }
+  .line-description li:nth-child(3) {
+    font-family: "GothamBold", "Helvetica Neue", sans-serif;
+    font-size: 46px;
+    line-height: 48px;
+    letter-spacing: -2px; }
+  .line-description li:nth-child(4) {
+    font-size: 24px;
+    line-height: 31px; }
+
+/*# sourceMappingURL=main.css.map */

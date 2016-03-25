@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "RobotoRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+@font-face {
+  font-family: "GothamLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gotham/GothamLight.ttf") format("truetype"); }
+@font-face {
+  font-family: "GothamUltra";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gotham/GothamUltra.ttf") format("truetype"); }
+@font-face {
+  font-family: "GothamBook";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gotham/GothamBook.ttf") format("truetype"); }
+@font-face {
+  font-family: "GothamBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gotham/GothamBold.ttf") format("truetype"); }
+@font-face {
+  font-family: "GothamBlack";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/gotham/GothamBlack.ttf") format("truetype"); }
+
+/*# sourceMappingURL=fonts.css.map */
