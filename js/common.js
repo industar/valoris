@@ -1,5 +1,16 @@
 $(function() {
 
+	$(document).ready(function(){
+  	$(".owl-carousel").owlCarousel({
+  		items : 1,
+  		loop : true,
+  		dots : true,
+  		responsiveClass:true
+
+  	});
+
+	});
+
 	//SVG Fallback
 	if(!Modernizr.svg) {
 		$("img[src*='svg']").attr("src", function() {

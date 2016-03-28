@@ -26,6 +26,7 @@ body {
   font-family: "GothamBook", "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-size: 15px;
+  color: #fff;
   min-width: 320px;
   position: relative;
   line-height: 1.6;
@@ -39,6 +40,27 @@ body textarea:focus:required:invalid {
 body input:required:valid,
 body textarea:required:valid {
   color: green; }
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 108px;
+  padding-right: 104px; }
+
+h1, h2 {
+  color: #323232;
+  font-family: "GothamLight", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center; }
+
+h2, h3 {
+  color: #fff; }
+
+h3 {
+  font-family: "GothamBold", "Helvetica Neue", sans-serif;
+  font-size: 15px;
+  text-transform: uppercase; }
 
 .hidden {
   display: none; }
@@ -74,7 +96,8 @@ body textarea:required:valid {
 
 .line-description li {
   font-family: "GothamLight", "Helvetica Neue", sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #323232; }
 
 .line-description {
   padding-top: 57px; }
@@ -95,5 +118,75 @@ body textarea:required:valid {
   .line-description li:nth-child(4) {
     font-size: 24px;
     line-height: 31px; }
+
+.hr {
+  width: 174px;
+  height: 2px;
+  background-color: #a7d16b;
+  margin: 13px auto 22px; }
+
+.descr-text {
+  width: 70%;
+  float: left;
+  text-align: justify;
+  padding: 0 83px; }
+  .descr-text p {
+    color: #8f8f8f;
+    font-family: "GothamBook", "Helvetica Neue", sans-serif;
+    font-size: 15px;
+    font-weight: 300; }
+
+.descr-img {
+  float: left;
+  padding: 63px 0 0 0; }
+
+.top {
+  margin-bottom: -7px; }
+  .top img {
+    width: 100%; }
+
+.bottom {
+  margin-top: -1px; }
+  .bottom img {
+    width: 100%; }
+
+.center {
+  background-color: #a7d16b;
+  overflow: hidden;
+  padding: 0px 40px 20px; }
+  .center > div {
+    text-align: center; }
+  .center h2 {
+    margin: 22px 0 51px; }
+
+.center-item {
+  float: left;
+  width: 20%;
+  padding: 0 25px; }
+  .center-item:first-child {
+    padding-left: 50px; }
+  .center-item p {
+    text-align: justify;
+    font-size: 11px;
+    margin: 25px 0 30px;
+    line-height: 13px; }
+  .center-item h3 {
+    margin-bottom: 30px; }
+
+.solutions {
+  background: url(../img/center-bottom.svg) no-repeat bottom center; }
+
+.section-bottom {
+  background: #323232;
+  padding-top: 45px; }
+
+.footer-line {
+  background: #231f20; }
+
+.footer-line-descr {
+  overflow: hidden; }
+
+.footer-line-logo {
+  float: left; }
 
 /*# sourceMappingURL=main.css.map */
