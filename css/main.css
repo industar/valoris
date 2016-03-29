@@ -178,15 +178,56 @@ h3 {
 
 .section-bottom {
   background: #323232;
-  padding-top: 45px; }
+  padding: 45px 0 85px; }
 
 .footer-line {
   background: #231f20; }
 
-.footer-line-descr {
-  overflow: hidden; }
+.footer-line-row {
+  margin: 20px 50px; }
 
-.footer-line-logo {
-  float: left; }
+.footer-line-descr {
+  overflow: hidden;
+  padding-top: 40px; }
+
+.footer-line-text {
+  font-family: "GothamBook", "Helvetica Neue", sans-serif;
+  text-align: justify;
+  padding: 12px 35px; }
+  .footer-line-text span {
+    color: #a7d16b;
+    font-weight: 700; }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.footer-line-nav {
+  padding: 25px 0 0 25px; }
+  .footer-line-nav li {
+    white-space: nowrap;
+    text-transform: uppercase; }
+    .footer-line-nav li a {
+      font-size: 12px;
+      font-family: "GothamLight", "Helvetica Neue", sans-serif;
+      color: #fff;
+      line-height: 30px; }
+
+.footer-line-contacts {
+  border-right: solid 2px #a7d16b;
+  border-left: solid 2px #a7d16b;
+  padding: 25px; }
+  .footer-line-contacts > div, .footer-line-contacts a {
+    font-size: 12px;
+    font-family: "GothamBook", "Helvetica Neue", sans-serif;
+    color: #fff; }
+
+.footer-line-row h4 {
+  color: #a7d16b;
+  font-family: "GothamBold", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 10px; }
 
 /*# sourceMappingURL=main.css.map */

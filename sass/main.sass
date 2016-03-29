@@ -169,10 +169,53 @@ h3
 	background: url(../img/center-bottom.svg) no-repeat bottom center
 .section-bottom
 	background: $darkgray
-	padding-top: 45px
+	padding: 45px 0 85px
 .footer-line
 	background: #231f20
+.footer-line-row
+	margin: 20px 50px
 .footer-line-descr
 	overflow: hidden
+	padding-top: 40px
 .footer-line-logo
-	float: left
+
+.footer-line-text
+	font-family: $fontbook
+	text-align: justify
+	padding: 12px 35px
+	span
+		color: $green
+		font-weight: 700
+
+.flex
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+.footer-line-nav
+	padding: 25px 0 0 25px
+
+	li
+		white-space: nowrap
+		text-transform: uppercase
+		a
+			font-size: 12px
+			font-family: $fontlight
+			color: #fff
+			line-height: 30px
+
+.footer-line-contacts
+	border-right: solid 2px $green
+	border-left: solid 2px $green
+	padding: 25px
+	>div, a
+		font-size: 12px
+		font-family: $fontbook
+		color: #fff
+	
+.footer-line-row
+	h4
+		color: $green
+		font-family: $fontbold
+		font-size: 12px
+		text-transform: uppercase
+		margin-bottom: 10px
