@@ -45,7 +45,7 @@ body textarea:required:valid {
   margin-right: auto;
   margin-left: auto;
   padding-left: 108px;
-  padding-right: 104px; }
+  padding-right: 108px; }
 
 h1, h2 {
   color: #323232;
@@ -229,5 +229,30 @@ h3 {
   font-size: 12px;
   text-transform: uppercase;
   margin-bottom: 10px; }
+
+.footer-about {
+  background: #fff; }
+  .footer-about span {
+    color: #231f20;
+    font-family: "GothamLight", "Helvetica Neue", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin: 25px 0 50px; }
+
+.owl-dots {
+  text-align: center; }
+  .owl-dots .owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+    opacity: 0.2;
+    background-color: #323232;
+    display: inline-block; }
+    .owl-dots .owl-dot.active {
+      background-color: #a7d16b;
+      opacity: 1; }
 
 /*# sourceMappingURL=main.css.map */
